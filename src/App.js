@@ -13,7 +13,7 @@ function App() {
   const [name, setName] = useState("")
   const [address, setAddress] = useState("")
   const [phone, setPhone] = useState("")
-  const [invoiceNumber, setInvoiceNumber] = useState(localStorage.getItem("fixedInvoiceNumber"))
+  const invoiceNumber = localStorage.getItem("fixedInvoiceNumber")
   const [admissionDate, setAdmissionDate] = useState("")
   const [dischargeDate, setDischargeDate] = useState("")
   const [doctorName, setDoctorName] = useState("Dr. Shafali Agarwal")

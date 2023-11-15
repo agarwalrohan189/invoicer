@@ -88,6 +88,7 @@ export default function TableForm({description, setDescription, quantity, setQua
                     <option value="Doctor's Charge">Doctor's Charge</option>
                     <option value="Medicines Charge">Medicines Charge</option>
                     <option value="Misc. Charges">Misc. Charges</option>
+                    <option value="Phototherapy Charge">Phototherapy Charge</option>
                 </select>
             </div>
 
